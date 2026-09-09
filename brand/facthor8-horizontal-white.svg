@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Facthor8 The Human Security Layer</title>
+  <desc id="desc">Facthor8 horizontal brand logo</desc>
+  
+  <g transform="translate(28 20) scale(1)">
+    <path d="M 132.599 34.145 A 142.0 142.0 0 0 1 227.401 34.145 L 207.372 90.703 A 82.0 82.0 0 0 0 152.628 90.703 Z" fill="#F7FAFC"/>
+    <path d="M 241.133 39.833 A 142.0 142.0 0 0 1 308.167 106.867 L 254.012 132.698 A 82.0 82.0 0 0 0 215.302 93.988 Z" fill="#F7FAFC"/>
+    <path d="M 313.855 120.599 A 142.0 142.0 0 0 1 313.855 215.401 L 257.297 195.372 A 82.0 82.0 0 0 0 257.297 140.628 Z" fill="#F7FAFC"/>
+    <path d="M 308.167 229.133 A 142.0 142.0 0 0 1 241.133 296.167 L 215.302 242.012 A 82.0 82.0 0 0 0 254.012 203.302 Z" fill="#F7FAFC"/>
+    <path d="M 227.401 313.855 A 142.0 142.0 0 0 1 132.599 313.855 L 152.628 257.297 A 82.0 82.0 0 0 0 207.372 257.297 Z" fill="#F7FAFC"/>
+    <path d="M 118.867 296.167 A 142.0 142.0 0 0 1 51.833 229.133 L 105.988 203.302 A 82.0 82.0 0 0 0 144.698 242.012 Z" fill="#F7FAFC"/>
+    <path d="M 46.145 215.401 A 142.0 142.0 0 0 1 46.145 120.599 L 102.703 140.628 A 82.0 82.0 0 0 0 102.703 195.372 Z" fill="#F7FAFC"/>
+    <path d="M 51.833 106.867 A 142.0 142.0 0 0 1 118.867 39.833 L 144.698 93.988 A 82.0 82.0 0 0 0 105.988 132.698 Z" fill="#F7FAFC"/>
+    <circle cx="180" cy="230" r="21" fill="#F7FAFC"/>
+  </g>
+  <text x="420" y="210" font-family="Nimbus Sans, Arial, sans-serif" font-size="145" font-weight="700" letter-spacing="-5">
+    <tspan fill="#F7FAFC">FACT</tspan><tspan fill="#F7FAFC">H</tspan><tspan fill="#F7FAFC">OR</tspan><tspan fill="#F7FAFC">8</tspan>
+  </text>
+  <text x="424" y="282" fill="#F7FAFC" font-family="Nimbus Sans, Arial, sans-serif" font-size="34" font-weight="400" letter-spacing="7">THE HUMAN SECURITY LAYER</text>
+</svg>

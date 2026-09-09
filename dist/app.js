@@ -8,7 +8,7 @@ function setLanguage(lang){
   document.documentElement.lang=lang;
   document.querySelectorAll('[data-es][data-en]').forEach(el=>{el.textContent=el.dataset[lang]});
   langButton.querySelectorAll('span').forEach(el=>el.classList.toggle('active',el.textContent.toLowerCase()===lang));
-  document.title=lang==='es'?'Facthor8 — La capa humana de la ciberseguridad':'Facthor8 — The human security layer';
+  document.title=lang==='es'?'Facthor8 — La capa humana de la seguridad':'Facthor8 — The Human Security Layer';
 }
 
 langButton.addEventListener('click',()=>setLanguage(state.lang==='es'?'en':'es'));
