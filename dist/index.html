@@ -139,8 +139,37 @@
           <p class="kicker" data-es="Empecemos por ver lo que hoy no se ve." data-en="Let’s start by seeing what is currently invisible.">Empecemos por ver lo que hoy no se ve.</p>
           <h2 data-es="¿Qué decisiones tomaría tu equipo frente a un ataque real?" data-en="What decisions would your team make during a real attack?">¿Qué decisiones tomaría tu equipo frente a un ataque real?</h2>
           <p data-es="Una conversación inicial alcanza para definir alcance, madurez y el mejor punto de partida." data-en="One initial conversation is enough to define scope, maturity and the right starting point.">Una conversación inicial alcanza para definir alcance, madurez y el mejor punto de partida.</p>
-          <button class="button contact-button" type="button"><span data-es="Solicitar diagnóstico inicial" data-en="Request an initial assessment">Solicitar diagnóstico inicial</span><span>↗</span></button>
-          <small class="contact-status" hidden data-es="Canal de contacto en preparación. Añadiremos aquí el correo o agenda comercial antes de publicar." data-en="Contact channel in preparation. We will add the commercial email or calendar before publishing.">Canal de contacto en preparación. Añadiremos aquí el correo o agenda comercial antes de publicar.</small>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="field">
+              <label for="cf-name" data-es="Nombre" data-en="Name">Nombre</label>
+              <input id="cf-name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="cf-email" data-es="Email de trabajo" data-en="Work email">Email de trabajo</label>
+              <input id="cf-email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="cf-company" data-es="Empresa" data-en="Company">Empresa</label>
+              <input id="cf-company" name="company" type="text" autocomplete="organization" required />
+            </div>
+            <div class="field">
+              <label for="cf-size" data-es="Tamaño del equipo (opcional)" data-en="Team size (optional)">Tamaño del equipo (opcional)</label>
+              <input id="cf-size" name="teamSize" type="text" autocomplete="off" />
+            </div>
+            <div class="field field-full">
+              <label for="cf-message" data-es="¿Qué te gustaría abordar? (opcional)" data-en="What would you like to address? (optional)">¿Qué te gustaría abordar? (opcional)</label>
+              <textarea id="cf-message" name="message" rows="3"></textarea>
+            </div>
+            <div class="field-honeypot" aria-hidden="true">
+              <label for="cf-website">Website</label>
+              <input id="cf-website" name="website" type="text" tabindex="-1" autocomplete="off" />
+            </div>
+            <button class="button contact-button" type="submit">
+              <span data-es="Solicitar diagnóstico inicial" data-en="Request an initial assessment">Solicitar diagnóstico inicial</span><span aria-hidden="true">↗</span>
+            </button>
+            <p class="contact-status" role="status" aria-live="polite"></p>
+          </form>
         </div>
       </section>
     </main>

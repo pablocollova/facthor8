@@ -23,3 +23,19 @@ footer .brand img{width:250px}
 .method-icon .icon-fill{fill:var(--acid);stroke:#007b5d}
 .method-icon .icon-accent{stroke:var(--acid);stroke-width:3}
 @media(max-width:640px){.method-icon{width:76px;height:76px;margin:2.8rem 0}.method-icon svg{width:52px;height:52px}}
+
+/* Contact form */
+.contact-form{margin-top:2.5rem;display:grid;grid-template-columns:1fr 1fr;gap:1.6rem 2.5rem;max-width:760px}
+.contact-form .field{display:flex;flex-direction:column;gap:.4rem}
+.contact-form .field-full{grid-column:1/-1}
+.contact-form label{font:500 .72rem var(--mono);text-transform:uppercase;letter-spacing:.08em;color:rgba(4,28,52,.65)}
+.contact-form input,.contact-form textarea{background:transparent;border:0;border-bottom:1px solid rgba(4,28,52,.35);padding:.55rem .1rem;font:500 1rem var(--body);color:var(--ink);outline:none;transition:border-color .2s;font-family:inherit}
+.contact-form input:focus,.contact-form textarea:focus{border-color:var(--ink)}
+.contact-form textarea{resize:vertical;min-height:64px}
+.field-honeypot{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.contact-form .contact-button{grid-column:1/-1;margin-top:.5rem;border:1px solid var(--ink)}
+.contact-form .contact-button:disabled{opacity:.6;cursor:progress}
+.contact-form .contact-status{grid-column:1/-1;min-height:1.3em;margin:0;font-size:.85rem;color:rgba(4,28,52,.65)}
+.contact-form .contact-status[data-state="error"]{color:#8a1f1f}
+.contact-form .contact-status[data-state="success"]{color:#00543d}
+@media(max-width:640px){.contact-form{grid-template-columns:1fr}}

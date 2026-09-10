@@ -1,0 +1,8 @@
+{
+  "name": "facthor8",
+  "private": true,
+  "description": "Facthor8 marketing site (static) + serverless contact endpoint on Vercel",
+  "engines": {
+    "node": "20.x"
+  }
+}
