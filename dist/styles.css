@@ -15,3 +15,11 @@
 .fit-card:after{content:"F8"}
 footer .brand img{width:250px}
 @media(max-width:640px){.brand img{width:176px}footer .brand img{width:220px}.hero:after{width:420px;right:-230px;bottom:-170px}}
+
+/* Method icons */
+.method-card{min-height:420px}
+.method-icon{width:84px;height:84px;margin:auto 0;display:grid;place-items:center;border:1px solid rgba(0,123,93,.22);border-radius:50%;background:rgba(0,211,154,.055);color:#007b5d;font:inherit}
+.method-icon svg{width:58px;height:58px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.method-icon .icon-fill{fill:var(--acid);stroke:#007b5d}
+.method-icon .icon-accent{stroke:var(--acid);stroke-width:3}
+@media(max-width:640px){.method-icon{width:76px;height:76px;margin:2.8rem 0}.method-icon svg{width:52px;height:52px}}
