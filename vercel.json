@@ -22,7 +22,7 @@
     }
   ],
   "functions": {
-    "api/*.js": {
+    "api/contact.js": {
       "maxDuration": 10
     },
     "api/task-email-send.js": {
