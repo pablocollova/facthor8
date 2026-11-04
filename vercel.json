@@ -24,6 +24,9 @@
   "functions": {
     "api/*.js": {
       "maxDuration": 10
+    },
+    "api/task-email-send.js": {
+      "maxDuration": 60
     }
   }
 }

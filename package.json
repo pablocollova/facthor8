@@ -4,5 +4,8 @@
   "description": "Facthor8 marketing site (static) + serverless contact endpoint on Vercel",
   "engines": {
     "node": "24.x"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.cjs"
   }
 }
